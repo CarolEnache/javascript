@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title This is a sample layout page
+    meta(name="description", content="")
+    if config.entry.css.external
+      link(rel="stylesheet", href="/style.css")
+  body
+    block content
+      script(type="text/javascript" src="javascript.js")
+
